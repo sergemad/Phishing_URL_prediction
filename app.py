@@ -16,7 +16,7 @@ def install():
 try:
     import joblib
 except ImportError:
-    install()
+    install_result = install()
     import joblib
 
 
