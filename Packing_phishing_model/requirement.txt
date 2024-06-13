@@ -41,7 +41,7 @@ ipython-genutils @ file:///tmp/build/80754af9/ipython_genutils_1606773439826/wor
 ipywidgets @ file:///croot/ipywidgets_1701289330913/work
 jedi @ file:///home/conda/feedstock_root/build_artifacts/jedi_1696326070614/work
 Jinja2 @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_e3k_d_nbx2/croot/jinja2_1716993406587/work
-joblib @ file:///home/conda/feedstock_root/build_artifacts/joblib_1714665484399/work
+joblib
 json5 @ file:///tmp/build/80754af9/json5_1624432770122/work
 jsonschema @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_2dizrcxtjs/croot/jsonschema_1699041625297/work
 jsonschema-specifications @ file:///private/var/folders/c_/qfmhj66j0tn016nkx_th4hxm0000gp/T/abs_a8fa_vbpr0/croot/jsonschema-specifications_1699032391984/work
