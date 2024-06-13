@@ -3,7 +3,23 @@ import requests
 import pandas as pd
 from PIL import Image
 from io import BytesIO
-import joblib
+import time
+import os
+import subprocess
+
+def install():
+    command = "pip install joblib"
+    process = subprocess.run(command, shell=True, capture_output=True, text=True)
+    time.sleep(3)  # Wait for the server to start
+    return process
+
+try:
+    import joblib
+except ImportError:
+    install()
+    import joblib
+
+
 from Packing_phishing_model.prediction_model.predict import predict
 
 # Charger le modèle pré-entraîné
