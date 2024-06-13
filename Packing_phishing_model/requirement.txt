@@ -1,9 +1,0 @@
-streamlit
-joblib
-numpy
-pandas
-pillow
-scikit-learn
-scipy
-wordcloud
-xgboost
